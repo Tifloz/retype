@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tifloz.github.io/sitemap.xml.gz
+Sitemap: https://tifloz.github.io/retype/sitemap.xml.gz
