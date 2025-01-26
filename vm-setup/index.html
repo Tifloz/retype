@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/retype">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.790891232334">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.791215533730">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
 
     <!-- Primary Meta Tags -->
-    <title>Vm setup</title>
-    <meta name="title" content="Vm setup">
+    <title>&#128421;️ Utilisation d&#39;une VM</title>
+    <meta name="title" content="🖥️ Utilisation d'une VM">
+    <meta name="description" content="💾 Espace disque : minimum 40 Go">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://tifloz.github.io/retype/vm-setup/">
@@ -19,20 +20,22 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://tifloz.github.io/retype/vm-setup/">
-    <meta property="og:title" content="Vm setup">
+    <meta property="og:title" content="🖥️ Utilisation d'une VM">
+    <meta property="og:description" content="💾 Espace disque : minimum 40 Go">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://tifloz.github.io/retype/vm-setup/">
-    <meta property="twitter:title" content="Vm setup">
+    <meta property="twitter:title" content="🖥️ Utilisation d'une VM">
+    <meta property="twitter:description" content="💾 Espace disque : minimum 40 Go">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.6.0.790891232334" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.6.0.791215533730" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.6.0.790891232334" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.6.0.791215533730" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.6.0.790891232334" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.6.0.791215533730" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -161,12 +164,92 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="vm-setup" class="break-words">
+<doc-anchor-target id="utilisation-d-une-vm" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#vm-setup">#</doc-anchor-trigger>
-        <span>Vm setup</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#utilisation-d-une-vm">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F5A5;&#xFE0F;</span> Utilisation d&#x27;une VM</span>
     </h1>
 </doc-anchor-target>
+<doc-anchor-target id="prérequis">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#prérequis">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x2699;&#xFE0F;</span> Prérequis</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x1F4BE;</span> Espace disque : minimum 40 Go</li>
+<li><span class="docs-emoji">&#x1F310;</span> Connexion internet stable</li>
+<li><span class="docs-emoji">&#x1F527;</span> Processeur 64-bit compatible</li>
+<li><span class="docs-emoji">&#x1F4BB;</span> 6 Go de RAM recommandés</li>
+</ul>
+<doc-anchor-target id="installation-de-vmware">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#installation-de-vmware">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F680;</span> Installation de VMware</span>
+    </h2>
+</doc-anchor-target>
+<ol>
+<li><span class="docs-emoji">&#x1F4E5;</span> Téléchargez <a href="https://softwareupdate.vmware.com/cds/vmw-desktop/player/17.6.2/24409262/windows/core/VMware-player-17.6.2-24409262.exe.tar">VMware Workstation Player</a></li>
+<li><span class="docs-emoji">&#x2699;&#xFE0F;</span> Lancez l&#x27;installation en tant qu&#x27;administrateur</li>
+<li><span class="docs-emoji">&#x27A1;&#xFE0F;</span> Suivez l&#x27;assistant d&#x27;installation avec les options par défaut</li>
+</ol>
+<doc-anchor-target id="préparation-de-windows">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#préparation-de-windows">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F6E0;&#xFE0F;</span> Préparation de Windows</span>
+    </h2>
+</doc-anchor-target>
+<ol>
+<li><span class="docs-emoji">&#x1F4E5;</span> Téléchargez <a href="https://gofile.io/d/VIRY3q">l&#x27;image ISO de Windows 10</a></li>
+<li><span class="docs-emoji">&#x1F4C2;</span> Vérifiez que vous avez suffisamment d&#x27;espace disque disponible</li>
+<li><span class="docs-emoji">&#x1F4C1;</span> Conservez le fichier ISO dans un emplacement facilement accessible</li>
+</ol>
+<doc-anchor-target id="configuration-de-la-vm">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#configuration-de-la-vm">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x2699;&#xFE0F;</span> Configuration de la VM</span>
+    </h2>
+</doc-anchor-target>
+<ol>
+<li><span class="docs-emoji">&#x1F4BB;</span> Lancez VMware Workstation Player</li>
+<li><span class="docs-emoji">&#x2795;</span> Créez une nouvelle machine virtuelle</li>
+<li><span class="docs-emoji">&#x1F4C2;</span> Sélectionnez l&#x27;image ISO de Windows 10 précédemment téléchargée</li>
+<li><span class="docs-emoji">&#x1F527;</span> Configurez les ressources (RAM, processeurs, espace disque)</li>
+</ol>
+<doc-anchor-target id="installation-de-windows">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#installation-de-windows">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F4BF;</span> Installation de Windows</span>
+    </h2>
+</doc-anchor-target>
+<ol>
+<li><span class="docs-emoji">&#x25B6;&#xFE0F;</span> Démarrez la machine virtuelle</li>
+<li><span class="docs-emoji">&#x27A1;&#xFE0F;</span> Suivez l&#x27;assistant d&#x27;installation</li>
+<li><span class="docs-emoji">&#x1F504;</span> Redémarrez la VM une fois l&#x27;installation terminée</li>
+</ol>
+<doc-anchor-target id="installation-du-bot">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#installation-du-bot">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F916;</span> Installation du bot</span>
+    </h2>
+</doc-anchor-target>
+<ol>
+<li><span class="docs-emoji">&#x1F4D6;</span> Installez le bot en suivant la documentation d&#x27;installation <a href="https://docs.jitsuri.xyz/books/premieres-etapes/page/installer-le-bot" title="Installer le bot">ICI</a></li>
+<li><span class="docs-emoji">&#x1F4E6;</span> Installez les dépendances requises</li>
+<li><span class="docs-emoji">&#x1F504;</span> Redémarrez la machine virtuelle</li>
+<li><span class="docs-emoji">&#x2699;&#xFE0F;</span> Configurez les paramètres nécessaires</li>
+</ol>
+<doc-anchor-target id="vérification-finale">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#vérification-finale">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x2705;</span> Vérification finale</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><span class="docs-emoji">&#x2714;&#xFE0F;</span> Vérifiez que Windows est correctement activé</li>
+<li><span class="docs-emoji">&#x1F9EA;</span> Testez le bon fonctionnement du bot</li>
+<li><span class="docs-emoji">&#x1F4C2;</span> Assurez-vous que toutes les dépendances sont installées</li>
+</ul>
 
                                 
                                 <!-- Required only on API pages -->
@@ -176,16 +259,23 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../parameters/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../usage/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Guide de Configuration du Bot</span>
+                                                <span class="block mt-1">▶️Utilisation du bot</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../parameters/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                                                <span class="block mt-1">Guide de Configuration du Bot</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
                                     </div>
                                 </nav>
                             </footer>
@@ -226,6 +316,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Vm setup", level: 1, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "🖥️ Utilisation d'une VM", level: 1, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
