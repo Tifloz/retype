@@ -27,7 +27,7 @@ Découvrez les bases pour configurer et utiliser Jitsuri :
 
 ## 📋 Configuration et utilisation
 
-- ⚙️ [Guide de configuration](configuration.md)  
+- ⚙️ [Guide de configuration](parameters.md)
   Configurez les paramètres pour que Jitsuri fonctionne parfaitement dans votre environnement.
 
 - 🕹️ [Utilisation du bot](usage.md)  
