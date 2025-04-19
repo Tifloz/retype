@@ -1,9 +1,9 @@
 input: .
 output: .retype
-url: https://docs.jitsuri.xyz
+url: https://tifloz.github.io/retype/
 links:
   - text: Site
-    link: https://jitsuri.xyz
+    link: https://tifloz.github.io/retype/
     target: blank
   - text: Discord
     link: https://discord.gg/jitsuri
