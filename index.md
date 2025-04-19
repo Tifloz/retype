@@ -1,5 +1,5 @@
 ---
-label: Home
+label: Accueil
 icon: home
 ---
 
@@ -13,36 +13,30 @@ Cette documentation vous guidera dans chaque étape pour tirer le meilleur parti
 
 Découvrez les bases pour configurer et utiliser Jitsuri :
 
-- 📦 [Utilisation d'une VM](vm-setup.md)  
+- 📦 [Utilisation d'une VM](Autres/vm.md)  
   Préparez un environnement idéal pour Jitsuri.  
   **Prérequis** : 🖥️ 40 Go d'espace disque | 🌐 Connexion internet stable | 🔧 Processeur 64-bit.
 
-- 💳 [Payer son pack Jitsuri](payment.md)  
+- 💳 [Payer son pack Jitsuri](Autres/payment.md)  
   Suivez les étapes pour activer votre pack, y compris la configuration d'un portefeuille crypto.
 
-- 🛠️ [Installer le bot](installation.md)  
+- 🛠️ [Installer le bot](Installation/install.md)  
   Une préparation simple pour installer Jitsuri. Créez un dossier dédié et suivez le guide !
 
 ---
 
 ## 📋 Configuration et utilisation
 
-- ⚙️ [Guide de configuration](configuration.md)  
-  Configurez les paramètres pour que Jitsuri fonctionne parfaitement dans votre environnement.
-
-- 🕹️ [Utilisation du bot](usage.md)  
+- 🕹️ [Utilisation du bot](Utilisation/usage.md)  
   Apprenez les bases pour automatiser vos tâches : initialisation, gestion des fenêtres Dofus, et plus.
 
 ---
 
 ## ✨ Fonctions avancées
 
-- 🌍 [Création de trajets](path-creation.md)  
-  Configurez vos déplacements personnalisés avec des outils dédiés comme FlatyCreator.  
-  **Outils nécessaires** : [Téléchargez FlatyCreator ici]().
-
-- 🎯 [Optimisation des combats](combat.md)  
-  Personnalisez les tactiques et gagnez en efficacité dans chaque combat.
+- 🌍 [Création de trajets](Trajets/basic/tools.md)  
+  Configurez vos déplacements personnalisés avec des outils dédiés comme JitsuriPathmaker.  
+  **Outils nécessaires** : [Téléchargez JitsuriPathmaker ici](https://files.jitsuri.xyz/api/public/dl/TOhBcgV3/utilitaires/JitsuriPathmaker.rar).
 
 ---
 
@@ -54,6 +48,6 @@ Découvrez les bases pour configurer et utiliser Jitsuri :
 
 ## Prêt à commencer ?
 
-👉 Explorez les sections ci-dessus ou débutez par les [Premières étapes](vm-setup.md) ! Nous sommes ravis de vous accompagner dans votre aventure avec Jitsuri.
+👉 Explorez les sections ci-dessus ou débutez par les [Premières étapes](Autres/vm.md) ! Nous sommes ravis de vous accompagner dans votre aventure avec Jitsuri.
 
 ---
