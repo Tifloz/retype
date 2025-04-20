@@ -1,3 +1,10 @@
+---
+label: Paramètres du bot
+icon: square-fill
+order: 9
+---
+
+
 # ⚙️ Paramètres
 
 L’onglet **Paramètres** de Jitsuri permet de configurer le comportement global du bot, notamment la gestion des combats, les options automatiques et les notifications. Il est divisé en plusieurs sections :

@@ -37,13 +37,11 @@ Ces outils peuvent être utiles pour convertir ou générer des trajets à parti
 
 1. **Conserver l’ordre des cartes** : Le bot interprète les instructions ligne par ligne.
 2. **Utiliser les paramètres exacts** : Les identifiants des ressources ou directions doivent être exacts.
-3. **Ajouter `path = "end"` pour les trajets inversés** : Cela permet au bot de refaire le trajet dans le sens inverse.
 
 #### Exemple de boucle
 
 ```lua
-GATHERABLES = { "ortie" }
-NEAREST_ZAAP = "Astrub"
+ELEMENTS_TO_GATHER = { "261" }
 
 function move()
   return {

@@ -12,7 +12,6 @@ Pour éviter les erreurs et garantir un bon fonctionnement, suivez ces étapes :
 
 - **Testez le début du trajet** : Vérifiez que le bot démarre correctement à partir du zaap ou de la carte initiale.
 - **Validez les coordonnées intermédiaires** : Assurez-vous que chaque point de passage est atteignable.
-- **Utilisez `path = "end"` pour les points finaux** : Cela garantit une boucle propre ou un trajet inversé.
 
 ## 🏆 Bonnes pratiques
 
