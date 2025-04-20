@@ -11,7 +11,7 @@ order: 19
 ==- 📝 Exemple de trajet
 
 ```lua
-ELEMENTS_TO_GATHER  = { "frene","ortie" }
+ELEMENTS_TO_GATHER  = { 1, 254 } -- Frêne, Ortie
 
 function move()
   return {
@@ -101,12 +101,6 @@ function move()
 ```
 ==-
 
-!!!warning
-Au moins une ressource doit être listée.  
-Utilisez les noms exacts comme affichés dans l'interface.  
-La liste doit être sous cette forme `{"frene","ortie"}`
-!!!  
-Possibilité de modifier les ressources directement dans le bot.</p>
 
 #### 🗺️ Contenu du trajet
 

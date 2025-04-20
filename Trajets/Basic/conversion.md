@@ -41,14 +41,14 @@ Ces outils peuvent être utiles pour convertir ou générer des trajets à parti
 #### Exemple de boucle
 
 ```lua
-ELEMENTS_TO_GATHER = { "261" }
+ELEMENTS_TO_GATHER = { 261, 254 } -- Millet, Ortie
 
 function move()
   return {
     { map = "5,-18", path = "bottom", gather = false, fight = false },
     { map = "5,-17", path = "left", gather = true, fight = false },
     { map = "4,-17", path = "top", gather = false, fight = false },
-    { map = "4,-18", path = "right", gather = false, fight = false },
+    { map = "4,-18", path = "5,-18", gather = false, fight = false },
   }
 end
 ```
