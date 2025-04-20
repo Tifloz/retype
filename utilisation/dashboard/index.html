@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/retype">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.798413855380">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.798504315007">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.7.0">
@@ -34,11 +34,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.7.0.798413855380" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.7.0.798504315007" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.7.0.798413855380" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.7.0.798504315007" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.7.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.7.0.798413855380" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.7.0.798504315007" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -193,51 +193,51 @@
     <figcaption class="caption">Dashboard principal</figcaption>
 </figure>
 </p>
-<hr>
-<doc-panel id="total-de-ressources-récoltées" collapsed>
-    <template #title><span class="docs-emoji">&#x1F4E6;</span> Total de ressources récoltées</template>
+<doc-panels>
+   <doc-panel id="total-de-ressources-récoltées" collapsed>
+       <template #title><span class="docs-emoji">&#x1F4E6;</span> Total de ressources récoltées</template>
 <ul>
 <li>Affiche le <strong>nombre total de ressources récoltées</strong> par le bot.</li>
 <li>Peut inclure une <strong>variation par rapport à la veille</strong> (hausse ou baisse en pourcentage).</li>
 </ul>
-</doc-panel>
-<doc-panel id="temps-moyen-entre-deux-récoltes" collapsed>
-    <template #title><span class="docs-emoji">&#x23F1;&#xFE0F;</span> Temps moyen entre deux récoltes</template>
+   </doc-panel>
+   <doc-panel id="temps-moyen-entre-deux-récoltes" collapsed>
+       <template #title><span class="docs-emoji">&#x23F1;&#xFE0F;</span> Temps moyen entre deux récoltes</template>
 <ul>
 <li>Indique la <strong>durée moyenne entre deux récoltes</strong>.</li>
 <li>Calcul basé sur les <strong>100 dernières récoltes</strong> effectuées.</li>
 </ul>
-</doc-panel>
-<doc-panel id="nombre-de-chasses-réussies" collapsed>
-    <template #title><span class="docs-emoji">&#x1F3AF;</span> Nombre de chasses réussies</template>
+   </doc-panel>
+   <doc-panel id="nombre-de-chasses-réussies" collapsed>
+       <template #title><span class="docs-emoji">&#x1F3AF;</span> Nombre de chasses réussies</template>
 <ul>
 <li>Nombre total de <strong>chasses abouties avec succès</strong>.</li>
 <li>Peut également afficher une comparaison avec la journée précédente.</li>
 </ul>
-</doc-panel>
-<doc-panel id="durée-moyenne-des-chasses" collapsed>
-    <template #title><span class="docs-emoji">&#x1F552;</span> Durée moyenne des chasses</template>
+   </doc-panel>
+   <doc-panel id="durée-moyenne-des-chasses" collapsed>
+       <template #title><span class="docs-emoji">&#x1F552;</span> Durée moyenne des chasses</template>
 <ul>
 <li>Temps moyen nécessaire pour <strong>réaliser une chasse</strong> complète.</li>
 <li>Basé sur les dernières sessions de chasse.</li>
 </ul>
-</doc-panel>
-<doc-panel id="évolution-des-récoltes" collapsed>
-    <template #title><span class="docs-emoji">&#x1F4C8;</span> Évolution des récoltes</template>
+   </doc-panel>
+   <doc-panel id="évolution-des-récoltes" collapsed>
+       <template #title><span class="docs-emoji">&#x1F4C8;</span> Évolution des récoltes</template>
 <ul>
 <li>Graphique linéaire représentant la <strong>quantité de ressources récoltées par jour</strong>.</li>
 <li>Permet d’identifier les pics ou les creux d’activité.</li>
 </ul>
-</doc-panel>
-<doc-panel id="top-ressources-récoltées" collapsed>
-    <template #title><span class="docs-emoji">&#x1F947;</span> Top ressources récoltées</template>
+   </doc-panel>
+   <doc-panel id="top-ressources-récoltées" collapsed>
+       <template #title><span class="docs-emoji">&#x1F947;</span> Top ressources récoltées</template>
 <ul>
-<li>Diagramme circulaire (camembert) représentant la <strong>répartition des ressources récoltées</strong>.</li>
+<li>Diagramme circulaire représentant la <strong>répartition des ressources récoltées</strong>.</li>
 <li>Classement visuel des ressources selon leur fréquence de récolte.</li>
 </ul>
-</doc-panel>
-<doc-panel id="statut-des-chasses" collapsed>
-    <template #title><span class="docs-emoji">&#x1F9E9;</span> Statut des chasses</template>
+   </doc-panel>
+   <doc-panel id="statut-des-chasses" collapsed>
+       <template #title><span class="docs-emoji">&#x1F9E9;</span> Statut des chasses</template>
 <ul>
 <li>Affiche l’état actuel du <strong>module de chasse</strong> :
 <ul>
@@ -246,9 +246,9 @@
 </ul>
 </li>
 </ul>
-</doc-panel>
-<doc-panel id="dernières-actions" collapsed>
-    <template #title><span class="docs-emoji">&#x1F4CB;</span> Dernières actions</template>
+   </doc-panel>
+   <doc-panel id="dernières-actions" collapsed>
+       <template #title><span class="docs-emoji">&#x1F4CB;</span> Dernières actions</template>
 <ul>
 <li>Historique des dernières actions réalisées (récolte ou chasse).</li>
 <li>Informations disponibles :
@@ -259,16 +259,16 @@
 </ul>
 </li>
 </ul>
-</doc-panel>
-<doc-panel id="chasses-par-jour" collapsed>
-    <template #title><span class="docs-emoji">&#x1F4C5;</span> Chasses par jour</template>
+   </doc-panel>
+   <doc-panel id="chasses-par-jour" collapsed>
+       <template #title><span class="docs-emoji">&#x1F4C5;</span> Chasses par jour</template>
 <ul>
 <li>Graphique en cours de chargement.</li>
 <li>Objectif : afficher une <strong>courbe d’activité quotidienne</strong> sur les chasses.</li>
 </ul>
-</doc-panel>
-<doc-panel id="navigation-latérale" collapsed>
-    <template #title><span class="docs-emoji">&#x1F9ED;</span> Navigation latérale</template>
+   </doc-panel>
+   <doc-panel id="navigation-latérale" collapsed>
+       <template #title><span class="docs-emoji">&#x1F9ED;</span> Navigation latérale</template>
 <p>Menu de navigation principal :</p>
 <ul>
 <li><strong>Accueil</strong> : Retour à la page principale.</li>
@@ -280,7 +280,8 @@
 <li><strong>Paramètres</strong> : Réglages globaux.</li>
 <li><strong>Mon compte</strong> : Informations liées à l’utilisateur connecté.</li>
 </ul>
-</doc-panel>
+   </doc-panel>
+</doc-panels>
 
                                 
                                 <!-- Required only on API pages -->
@@ -294,16 +295,16 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">⚙️ Paramètres</span>
+                                                <span class="block mt-1">Paramètres du bot</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../utilisation/usage/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../utilisation/gather/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Utiliser Jitsuri</span>
+                                                <span class="block mt-1">Bot récolte</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>

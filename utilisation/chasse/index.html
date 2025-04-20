@@ -4,39 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/retype">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.798413855380">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.798504315007">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.7.0">
 
     <!-- Primary Meta Tags -->
-    <title>MigrationJitsuri Documentation</title>
-    <meta name="title" content="MigrationJitsuri Documentation">
-    <meta name="description" content="Test sous dossier 2">
+    <title>Bot chasseJitsuri Documentation</title>
+    <meta name="title" content="Bot chasseJitsuri Documentation">
+    <meta name="description" content="Cette section présente l’interface utilisateur dédiée au Bot chasse au trésor.">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://tifloz.github.io/retype/création-de-trajets/migration/">
+    <link rel="canonical" href="https://tifloz.github.io/retype/utilisation/chasse/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://tifloz.github.io/retype/création-de-trajets/migration/">
-    <meta property="og:title" content="MigrationJitsuri Documentation">
-    <meta property="og:description" content="Test sous dossier 2">
+    <meta property="og:url" content="https://tifloz.github.io/retype/utilisation/chasse/">
+    <meta property="og:title" content="Bot chasseJitsuri Documentation">
+    <meta property="og:description" content="Cette section présente l’interface utilisateur dédiée au Bot chasse au trésor.">
+    <meta property="og:image" content="https://tifloz.github.io/retype/static/mitm/chasse.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://tifloz.github.io/retype/création-de-trajets/migration/">
-    <meta property="twitter:title" content="MigrationJitsuri Documentation">
-    <meta property="twitter:description" content="Test sous dossier 2">
+    <meta property="twitter:url" content="https://tifloz.github.io/retype/utilisation/chasse/">
+    <meta property="twitter:title" content="Bot chasseJitsuri Documentation">
+    <meta property="twitter:description" content="Cette section présente l’interface utilisateur dédiée au Bot chasse au trésor.">
+    <meta property="twitter:image" content="https://tifloz.github.io/retype/static/mitm/chasse.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.7.0.798413855380" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.7.0.798504315007" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.7.0.798413855380" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.7.0.798504315007" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.7.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.7.0.798413855380" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.7.0.798504315007" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -173,13 +175,75 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="migration" class="break-words">
+<doc-anchor-target id="bot-chasse" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#migration">#</doc-anchor-trigger>
-        <span>Migration</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bot-chasse">#</doc-anchor-trigger>
+        <span>Bot chasse</span>
     </h1>
 </doc-anchor-target>
-<p>Test sous dossier 2</p>
+<doc-anchor-target id="interface-chasse-vue-d-ensemble">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#interface-chasse-vue-d-ensemble">#</doc-anchor-trigger>
+        <span><span class="docs-emoji">&#x1F3F9;</span> Interface Chasse — Vue d&#x27;ensemble</span>
+    </h2>
+</doc-anchor-target>
+<p>Cette section présente l’interface utilisateur dédiée au <strong>Bot chasse au trésor</strong>. Elle permet d’automatiser les déplacements, de suivre les indices en temps réel et de consulter l’historique des sessions.</p>
+<p><figure class="content-center">
+    <img src="../../static/mitm/chasse.png" alt="Interface Chasse">
+    <figcaption class="caption">Interface Chasse</figcaption>
+</figure>
+</p>
+<doc-panels>
+   <doc-panel id="logs-détaillés" collapsed>
+       <template #title><span class="docs-emoji">&#x1F4CB;</span> Logs détaillés</template>
+<p>Affiche en temps réel les actions entreprises par le bot, telles que :</p>
+<ul>
+<li><span class="docs-emoji">&#x1F3C1;</span> Le démarrage de la chasse</li>
+<li><span class="docs-emoji">&#x1F6B6;</span> Les déplacements vers chaque salle ou indice</li>
+<li><span class="docs-emoji">&#x1F5FA;&#xFE0F;</span> Le passage par un zaap s’il est plus optimal</li>
+<li><span class="docs-emoji">&#x1F4CD;</span> La validation des drapeaux d’indices</li>
+</ul>
+<p>Fonctionnalités utiles :</p>
+<ul>
+<li><strong>Copier les logs</strong> pour les partager facilement</li>
+<li><strong>Effacer les logs</strong> pour repartir d’un affichage propre</li>
+</ul>
+   </doc-panel>
+   <doc-panel id="indices-en-cours" collapsed>
+       <template #title><span class="docs-emoji">&#x1F9E9;</span> Indices en cours</template>
+<p>Affichage des indices à résoudre pendant la chasse.</p>
+<ul>
+<li>Chaque indice est représenté avec une icône visuelle (flèche, point d’interrogation)</li>
+<li>Les indices déjà trouvés sont <strong>barrés</strong></li>
+<li>Une barre de progression indique l&#x27;avancement général (ex: <code v-pre>1/6 Indices</code>)</li>
+<li>Le nombre d&#x27;étapes de la chasse est également précisé (ex: <code v-pre>1/3 Étapes</code>)</li>
+</ul>
+<p><span class="docs-emoji">&#x1F9E0;</span> <em>Ce module est utile pour vérifier la progression de la chasse sans avoir à lire tous les logs.</em></p>
+   </doc-panel>
+   <doc-panel id="historique-des-chasses" collapsed>
+       <template #title><span class="docs-emoji">&#x1F4C8;</span> Historique des chasses</template>
+<p>Affiche les statistiques des dernières chasses effectuées :</p>
+<ul>
+<li>Une barre temporelle montre la durée</li>
+<li>Un bouton permet d’<strong>accéder à l’historique complet</strong></li>
+<li>Les informations sont triées par jour</li>
+</ul>
+<p><span class="docs-emoji">&#x1F501;</span> <em>Idéal pour suivre vos performances et repérer les chasses particulièrement rapides ou lentes.</em></p>
+   </doc-panel>
+   <doc-panel id="contrôle-de-la-chasse" collapsed>
+       <template #title><span class="docs-emoji">&#x1F3AE;</span> Contrôle de la chasse</template>
+<p>Permet de choisir le <strong>mode de chasse</strong> :</p>
+<ul>
+<li><strong>Mode automatique</strong> : le bot gère tout de A à Z.</li>
+<li><strong>Mode manuel</strong> : pour garder le contrôle des déplacements tout en bénéficiant d’assistances.</li>
+</ul>
+<p>Options disponibles :</p>
+<ul>
+<li><span class="docs-emoji">&#x2705;</span> <strong>Notification Discord</strong> : pour recevoir des updates pendant la chasse</li>
+<li><span class="docs-emoji">&#x26D4;</span> Bouton rouge pour <strong>arrêter la chasse</strong> à tout moment</li>
+</ul>
+   </doc-panel>
+</doc-panels>
 
                                 
                                 <!-- Required only on API pages -->
@@ -189,20 +253,20 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../création-de-trajets/basics/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../utilisation/gather/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Basics</span>
+                                                <span class="block mt-1">Bot récolte</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../usage/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../utilisation/map/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">▶️Utilisation du bot</span>
+                                                <span class="block mt-1">Navigation</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -246,6 +310,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Migration", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Bot chasse", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
