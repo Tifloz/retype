@@ -14,7 +14,7 @@ start:
   pro: true
 branding:
   logo: /static/logo.svg
-  label: v1.20e
+  label: MITM
   colors:
     label:
       text: "#a7ffd5"

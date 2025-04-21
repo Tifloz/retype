@@ -295,4 +295,4 @@ Vous devez garder en tête que ce que vous spécifiez dans l'instruction path se
 {.compact}
 | **Nom du paramètre** | **Description** | **Exemples de valeurs possibles** |
 | -------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------- |
-| ELEMENTS_TO_GATHER  | Nom des ressources à récolter | "ble", "frene", "ortie", "sauge", ... |
+| ELEMENTS_TO_GATHER  | Identifiant des ressources à récolter | `1` , `261`, `300`, ... |

@@ -13,7 +13,7 @@ Cette documentation vous guidera dans chaque étape pour tirer le meilleur parti
 
 Découvrez les bases pour configurer et utiliser Jitsuri :
 
-- 📦 [Utilisation d'une VM](Autres/vm.md)  
+- 📦 [Utilisation d'une VM (Optionel)](Autres/vm.md)  
   Préparez un environnement idéal pour Jitsuri.  
   **Prérequis** : 🖥️ 40 Go d'espace disque | 🌐 Connexion internet stable | 🔧 Processeur 64-bit.
 
@@ -21,14 +21,14 @@ Découvrez les bases pour configurer et utiliser Jitsuri :
   Suivez les étapes pour activer votre pack, y compris la configuration d'un portefeuille crypto.
 
 - 🛠️ [Installer le bot](Installation/install.md)  
-  Une préparation simple pour installer Jitsuri. Créez un dossier dédié et suivez le guide !
+  Une préparation simple pour installer Jitsuri.
 
 ---
 
 ## 📋 Configuration et utilisation
 
-- 🕹️ [Utilisation du bot](Utilisation/usage.md)  
-  Apprenez les bases pour automatiser vos tâches : initialisation, gestion des fenêtres Dofus, et plus.
+- 🕹️ [Configuration du bot](Configuration/Bot/Windows/windows.md)  
+  Apprenez les bases pour automatiser vos tâches : Paramètres, proxies, et configuration des sorts.
 
 ---
 
@@ -43,11 +43,5 @@ Découvrez les bases pour configurer et utiliser Jitsuri :
 ## 📚 Ressources supplémentaires
 
 - 🌐 [Rejoignez la communauté](https://discord.gg/jitsuri) : Posez vos questions et partagez vos astuces.
-
----
-
-## Prêt à commencer ?
-
-👉 Explorez les sections ci-dessus ou débutez par les [Premières étapes](Autres/vm.md) ! Nous sommes ravis de vous accompagner dans votre aventure avec Jitsuri.
 
 ---
